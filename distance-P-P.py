@@ -24,7 +24,7 @@ parser.add_argument(
     '--sela',type=str, default='protein',
     help='First selection.')
 parser.add_argument(
-    '--selb',type=str, default='segid DNAA',
+    '--selb',type=str, default='protein',
     help='Second selection.')
 
 arg = parser.parse_args()
