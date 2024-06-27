@@ -13,3 +13,10 @@ tidynamics
 *** Usage:
 ```
 Python [options] filename.py
+```
+*** Examples:
+
+To calculate inter protein-protein contacts:
+```
+python contacts.py --traj_path=dcdfile --psf_path=psffile --sela="protein" --selb="protein" --out_path=outputfile
+```
