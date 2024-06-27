@@ -27,10 +27,10 @@ parser.add_argument(
     '--sela',type=str, default='protein',
     help='First selection.')
 parser.add_argument(
-    '--selb',type=str, default='segid DNAA',
+    '--selb',type=str, default='protein',
     help='Second selection.')
 parser.add_argument(
-    '--out_path',type=str, default='rmsf.dat',
+    '--out_path',type=str, default='contacts.dat',
     help='Output path.')
 arg = parser.parse_args()
 
