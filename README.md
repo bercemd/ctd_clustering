@@ -14,7 +14,7 @@ tidynamics
 ```
 Python [options] filename.py
 ```
-*** Examples:
+*** Example:
 
 To calculate inter protein-protein contacts:
 ```
