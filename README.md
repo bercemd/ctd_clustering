@@ -20,3 +20,6 @@ To calculate inter protein-protein contacts:
 ```
 python contacts.py --traj_path=dcdfile --psf_path=psffile --sela="protein" --selb="protein" --out_path=outputfile
 ```
+*** Citation:
+```
+Amith, W. D. Chen, V. T. Dutagaci B., Clustering of RNA Polymerase II C-Terminal Domain Models upon Phosphorylation, Journal of Physical Chemistry B 2024, 128, 10385−10396
